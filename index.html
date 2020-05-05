@@ -7,7 +7,7 @@
     </head>
     <body>
         <h1 id="title">So you wanna be a PUNK ROCKER?</h1>
-        <p id="description">Fill out this form to your musical taste.</p>
+        <p id="description">Fill out for your Punk Rock Flavor.</p>
         <form id="survey-form" action="/action_page.php" method="get">
             <fieldset>
                 <legend>Contact info</legend>
@@ -15,19 +15,22 @@
                 <ul class="contact">
                     <li><label id="name-label" for="name">Name:</label>
                         <input type="text" id="name" required placeholder="Your Name Here">*</li> <!--****** Validation Error-->
+
                     <li><label id="email-label" for="email">Email:</label>
                         <input type="email" id="email" required placeholder="Your Email Here">*</li> <!--****** Validation Error-->
-                    <li><label for="telephone" for="phone">Phone:</label>
+
+                    <li><label id="telephone" for="phone">Phone:</label>
                         <input type="tel" id="phone" required pattern="^\d{10}$">*</li>
-                    <li><label id="number-label" for="Age">Age:</label>
+
+                    <li><label id="number-label" for="age">Age:</label>
                         <input type="number" min="12" max="120" id="number" required placeholder="Age">*</li>
                 </ul>
             </fieldset> 
             <fieldset>
                 <legend>More info</legend>
 
-                    <label for="music_type">Favorite Punk Move</label>
-                        <select id="dropdown" name="music_type">
+                    <label for="punk_style">Favorite Punk Move</label>
+                        <select id="dropdown" name="punk_style">
                             <option value="" disabled selected>Select your PUNK move</option>
                             <option value="sick">Get sick in a friends car</option>
                             <option value="pierce">pierce your tongue by yourself</option>
@@ -38,33 +41,40 @@
                             <option value="smoke">Smoke While Huffing Gas</option>
                             <option value="cover">On the cover of Punk and Disorderly Volume II</option>
                         </select>
-                    <p>Are you interested in learning to play a instrument?</p>
-                    <ul>
-                        <li>  <input type="radio" id="yes" name="learning">
-                            <label for="yes">Yes</label></li>
-                        <li> <input type="radio" id="no" name="learning">
-                            <label for="no">No</label></li>
-                        <li><input type="radio" id="Maybe" name="Learning">
-                            <label for="maybe">Maybe</label></li>
-                        <li><input type="radio" id="already_do" name="learning">
-                            <label for="already_do">Already do</label></li>
-                    </ul>
-                    <p>Which instrument are you interested in? </p>
-                    <ul>
-                        <li><input type="checkbox" id="guitar" name="instru" value="guitar">
-                        <label for="guitar">Guitar</label></li>
-                        <li><input type="checkbox" id="drums" name="instru" value="drums">
-                        <label for="drums">Drums</label></li>
-                        <li><input type="checkbox" id="keybord" name="instru" value="keybord">
-                        <label for="keybord">keyboard</label></li>
-                        <li><input type="checkbox" id="bass_g" name="instru" value="bass_g">
-                        <label for="bass_g">Bass Guitar</label></li>
-                    </ul>
-                    <hr>
-                    <label for="comment">Additional Comments:</label>
-                    <textarea name="comment" id="comment" cols="50" rows="15" placeholder="leave any cool comments here. "></textarea>
-                </fieldset>
-        <input type="submit" value="music email news"> 
+                    <section>
+                        <p>Are you interested in learning to play a instrument?</p>
+                        <ul>
+                            <li>  <input type="radio" id="yes" name="learning">
+                                <label for="yes">Yes</label></li>
+                            <li> <input type="radio" id="no" name="learning">
+                                <label for="no">No</label></li>
+                            <li><input type="radio" id="Maybe" name="Learning">
+                                <label for="maybe">Maybe</label></li>
+                            <li><input type="radio" id="already_do" name="learning">
+                                <label for="already_do">Already do</label></li>
+                        </ul>
+                    </section>
+                    <section>
+                        <p>Which instrument are you interested in? </p>
+                        <ul>
+                            <li><input type="checkbox" id="guitar" name="instru" value="guitar">
+                            <label for="guitar">Guitar</label></li>
+                            <li><input type="checkbox" id="drums" name="instru" value="drums">
+                            <label for="drums">Drums</label></li>
+                            <li><input type="checkbox" id="keybord" name="instru" value="keybord">
+                            <label for="keybord">keyboard</label></li>
+                            <li><input type="checkbox" id="bass_g" name="instru" value="bass_g">
+                            <label for="bass_g">Bass Guitar</label></li>
+                        </ul>
+                    </section>
+                    <section class="comments">
+                        <label for="comment">Additional Comments:</label>
+                            <textarea name="comment" id="comment" cols="70" rows="15" placeholder="leave any cool comments here. "></textarea>
+                    
+                        <input type="submit" value="submit">
+                    </section>
+                    </fieldset>
+
         </form>
     </body>
 </html>
