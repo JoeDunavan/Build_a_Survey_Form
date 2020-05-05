@@ -35,6 +35,7 @@ fieldset{
     margin: 20px auto; 
     width: 800px;
     border-radius: 15px;
+    margin-bottom: 50px;
 }
 fieldset p{
     text-align: center;
