@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta>
+        <link rel="stylesheet" href="style.css">
+        <title>Build a Survey_Form</title>
+    </head>
+    <body>
+        <h1 id="title">Musical Taste Survey</h1>
+        <p id="description">Please fill out your out musical taste form</p>
+        <form id="survey-form" action="/action_page.php" method="get">
+            <fieldset>
+                <legend>Contact info</legend>
+                <p>* indicates a required field.</p>
+                <ul class="contact">
+                    <li><label id="name-label" for="name">Name:</label>
+                        <input type="text" id="name" required placeholder="Your Name Here">*</li> <!--****** Validation Error-->
+                    <li><label id="email-label" for="email">Email:</label>
+                        <input type="email" id="email" required placeholder="Your Email Here">*</li> <!--****** Validation Error-->
+                    <li><label for="telephone" for="phone">Phone:</label>
+                        <input type="tel" id="phone" required pattern="^\d{10}$">*</li>
+                    <li><label id="number-label" for="Age">Age:</label>
+                        <input type="number" min="12" max="120" id="number" required placeholder="Age">*</li>
+                </ul>
+            </fieldset> 
+            <fieldset>
+                <legend>More info</legend>
+
+                    <label for="music_type">Favorite Music Type:</label>
+                        <select id="dropdown" name="music_type">
+                            <option value="classical"></option>
+                            <option value="Rock">Rock</option>
+                            <option value="R&B">R&B</option>
+                            <option value="Yacht Rock">Yacht Rock</option>
+                            <option value="Rap">Rap</option>
+                            <option value="EDM">EDM</option>
+                            <option value="Industrial">Industrial</option>
+                            <option value="House">House</option>
+                            <option value="Reggae">Reggee</option>
+                            <option value="Punk">Punk</option>
+                        </select>
+                    <p>Are you interested in learning to play a instrument?</p>
+            </fieldset>
+        <input type="submit" value="music email news"> 
+        </form>
+    </body>
+</html>
