@@ -6,8 +6,8 @@
         <title>Build a Survey_Form</title>
     </head>
     <body>
-        <h1 id="title">Musical Taste Survey</h1>
-        <p id="description">Please fill out your out musical taste form</p>
+        <h1 id="title">So you wanna be a PUNK ROCKER?</h1>
+        <p id="description">Fill out this form to your musical taste.</p>
         <form id="survey-form" action="/action_page.php" method="get">
             <fieldset>
                 <legend>Contact info</legend>
@@ -26,21 +26,44 @@
             <fieldset>
                 <legend>More info</legend>
 
-                    <label for="music_type">Favorite Music Type:</label>
+                    <label for="music_type">Favorite Punk Move</label>
                         <select id="dropdown" name="music_type">
-                            <option value="classical"></option>
-                            <option value="Rock">Rock</option>
-                            <option value="R&B">R&B</option>
-                            <option value="Yacht Rock">Yacht Rock</option>
-                            <option value="Rap">Rap</option>
-                            <option value="EDM">EDM</option>
-                            <option value="Industrial">Industrial</option>
-                            <option value="House">House</option>
-                            <option value="Reggae">Reggee</option>
-                            <option value="Punk">Punk</option>
+                            <option value="" disabled selected>Select your PUNK move</option>
+                            <option value="sick">Get sick in a friends car</option>
+                            <option value="pierce">pierce your tongue by yourself</option>
+                            <option value="everclear">Only bring everclear to BYOB </option>
+                            <option value="colored_teeth">Got colored Teeth like Johnny</option>
+                            <option value="vicious">Exude a vicious disposition</option>
+                            <option value="middle">Points with middle finger</option>
+                            <option value="smoke">Smoke While Huffing Gas</option>
+                            <option value="cover">On the cover of Punk and Disorderly Volume II</option>
                         </select>
                     <p>Are you interested in learning to play a instrument?</p>
-            </fieldset>
+                    <ul>
+                        <li>  <input type="radio" id="yes" name="learning">
+                            <label for="yes">Yes</label></li>
+                        <li> <input type="radio" id="no" name="learning">
+                            <label for="no">No</label></li>
+                        <li><input type="radio" id="Maybe" name="Learning">
+                            <label for="maybe">Maybe</label></li>
+                        <li><input type="radio" id="already_do" name="learning">
+                            <label for="already_do">Already do</label></li>
+                    </ul>
+                    <p>Which instrument are you interested in? </p>
+                    <ul>
+                        <li><input type="checkbox" id="guitar" name="instru" value="guitar">
+                        <label for="guitar">Guitar</label></li>
+                        <li><input type="checkbox" id="drums" name="instru" value="drums">
+                        <label for="drums">Drums</label></li>
+                        <li><input type="checkbox" id="keybord" name="instru" value="keybord">
+                        <label for="keybord">keyboard</label></li>
+                        <li><input type="checkbox" id="bass_g" name="instru" value="bass_g">
+                        <label for="bass_g">Bass Guitar</label></li>
+                    </ul>
+                    <hr>
+                    <label for="comment">Additional Comments:</label>
+                    <textarea name="comment" id="comment" cols="50" rows="15" placeholder="leave any cool comments here. "></textarea>
+                </fieldset>
         <input type="submit" value="music email news"> 
         </form>
     </body>
