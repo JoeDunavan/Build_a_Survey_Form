@@ -32,7 +32,7 @@ body{
 fieldset{
     background-color:  darkslategrey;
     color: goldenrod;
-    margin: 20px auto; 
+    margin: 0px auto; 
     width: 80%;
     border-radius: 15px;
     margin-bottom: 50px;
@@ -56,7 +56,7 @@ ul{
 }
 li{
     padding: 10px;
-    display: block;
+
 }
 #comment{
     display: block;
@@ -118,10 +118,16 @@ textarea{
     border-radius: 15px;
 }
 textarea::placeholder{
+    margin-top: 15px;
     padding: 10px;
     font-size: 18px;
 }
-                            /*  SCREEN SIZE */
+.comments label[for="comment"]{
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: block;
+}
+                            /* /////// SCREEN SIZE ///////*/
 @media screen and (max-width: 1140px){
     #title{
         font-size: 36px;
@@ -163,8 +169,12 @@ select{
     font-size: 16px;
     margin: 10px 0 10px 15px;
 }
-section{
-    width: 80%
+section ul{
+    width: 80%;
+}
+.comments{
+    width: 80%;
+
 }
 section p{
     padding-left: 50px;
@@ -172,7 +182,7 @@ section p{
     width: 80%;
 }
 #comment{
-    width: 60%;
+    width: 80%;
 }
 
 }   
