@@ -6,7 +6,7 @@ input:focus, textarea:focus, select:focus{
     }
 
 body{
-    background-image: url(img/punk_background.min.jpg);
+    background-image: url(img/punk_background.jpg);
     margin: 0 auto;
     max-width: 1200px;
     font-size: 18px;
