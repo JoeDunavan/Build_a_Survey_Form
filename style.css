@@ -17,7 +17,7 @@ body{
     font-family: frijole, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 44px;
     background-color: darkslategrey;
-    color: #f2efbc
+    color: #f2efbc;
     padding: 20px;
     text-align: center;
     border: 5px solid #fff;
@@ -25,7 +25,7 @@ body{
 }
 #description{
     background-color:  darkslategrey;
-    color: #f2efbc
+    color: #f2efbc;
     font-size: 24px;
     padding: 20px;
     width: 50%;
@@ -37,7 +37,7 @@ body{
 fieldset.contact{
     background-color:  darkslategrey;
     text-align: center;
-    color: #f2efbc
+    color: #f2efbc;
     margin: 30px auto; 
     width: 80%;
     border-radius: 15px;
@@ -62,7 +62,7 @@ fieldset.contact p{
 fieldset{
     background-color:  darkslategrey;
     text-align: left;
-    color: #f2efbc
+    color: #f2efbc;
     margin: 30px auto; 
     width: 80%;
     border-radius: 15px; 
@@ -236,7 +236,7 @@ textarea{
     fieldset.contact{
     background-color:  darkslategrey;
     text-align: center;
-    color: #f2efbc
+    color: #f2efbc;
     margin: 30px auto; 
     width: 80%;
     border-radius: 15px;
