@@ -6,7 +6,7 @@ input:focus, textarea:focus, select:focus{
     }
 
 body{
-    background-image: url(img/punk_background.jpg);
+    background-image: url(img/punk_background.min.jpg);
     margin: 0 auto;
     max-width: 1200px;
     font-size: 18px;
@@ -17,7 +17,7 @@ body{
     font-family: frijole, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 44px;
     background-color: darkslategrey;
-    color: goldenrod;
+    color: #f2efbc
     padding: 20px;
     text-align: center;
     border: 5px solid #fff;
@@ -25,7 +25,7 @@ body{
 }
 #description{
     background-color:  darkslategrey;
-    color: goldenrod;
+    color: #f2efbc
     font-size: 24px;
     padding: 20px;
     width: 50%;
@@ -37,7 +37,7 @@ body{
 fieldset.contact{
     background-color:  darkslategrey;
     text-align: center;
-    color: goldenrod;
+    color: #f2efbc
     margin: 30px auto; 
     width: 80%;
     border-radius: 15px;
@@ -62,7 +62,7 @@ fieldset.contact p{
 fieldset{
     background-color:  darkslategrey;
     text-align: left;
-    color: goldenrod;
+    color: #f2efbc
     margin: 30px auto; 
     width: 80%;
     border-radius: 15px; 
@@ -236,7 +236,7 @@ textarea{
     fieldset.contact{
     background-color:  darkslategrey;
     text-align: center;
-    color: goldenrod;
+    color: #f2efbc
     margin: 30px auto; 
     width: 80%;
     border-radius: 15px;
