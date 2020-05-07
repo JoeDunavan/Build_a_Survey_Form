@@ -8,11 +8,12 @@
     <body>
         <h1 id="title">So you wanna be a PUNK ROCKER?</h1>
         <p id="description">Fill out for your Punk Rock Flavor.</p>
+
         <form id="survey-form" action="/action_page.php" method="get">
-            <fieldset>
+            <fieldset class="contact">
                 <legend>Contact info</legend>
                 <p>* indicates a required field.</p>
-                <ul class="contact">
+                <ul>
                     <li><label id="name-label" for="name">Name:</label>
                         <input type="text" id="name" required placeholder="Your Name Here">*</li>
 
@@ -20,7 +21,7 @@
                         <input type="email" id="email" required placeholder="Your Email Here">*</li> 
 
                     <li><label id="telephone" for="phone">Phone:</label>
-                        <input type="tel" id="phone" required pattern="^\d{10}$">*</li>
+                        <input type="tel" id="phone" required pattern="^\d{10}$" placeholder="1231231234">*</li>
 
                     <li><label id="number-label" for="age">Age:</label>
                         <input type="number" min="12" max="120" id="number" required placeholder="Age">*</li>
@@ -41,23 +42,20 @@
                             <option value="smoke">Smoke While Huffing Gas</option>
                             <option value="cover">On the cover of Punk and Disorderly Volume II</option>
                         </select>
-                    <section>
+                    <section >
                         <p>Are you interested in learning to play a instrument?</p>
                         <ul>
                             <li>
                                 <label for="yes"><input value="yes" type="radio" id="yes" name="learning">Yes</label></li>
-
                             <li>
                                 <label for="no"><input value="no" type="radio" id="no" name="learning">No</label></li>
-
                             <li>
-                                <label for="maybe" ><input value="maybe" type="radio" id="Maybe" name="learning">Maybe</label></li>
-                                
+                                <label for="maybe" ><input value="maybe" type="radio" id="Maybe" name="learning">Maybe</label></li>                               
                             <li>
                                 <label for="already_do"><input value="already_do" type="radio" id="already_do" name="learning">Already do</label></li>
                         </ul>
                     </section>
-                    <section>
+                    <section >
                         <p>Which instrument are you interested in? </p>
                         <ul>
                             <li><input type="checkbox" id="guitar" name="instru" value="guitar">
@@ -74,11 +72,11 @@
                     </section>
                     <section class="comments">
                         <label for="comment">Additional Comments:</label>
-                            <textarea name="comment" id="comment" cols="70" rows="15" placeholder="leave any cool comments here. "></textarea>
+                            <textarea name="comment" id="comment"> Leave a cool comment here.</textarea>
                     
                         <input id="submit" type="submit" value="submit">
                     </section>
-                </fieldset>
+            </fieldset>
 
         </form>
 
