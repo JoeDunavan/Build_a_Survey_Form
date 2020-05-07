@@ -81,6 +81,7 @@ li{
 }
 li label{
     line-height: .2em;
+    color: #fafaf8;
 }
 legend{
     font-family: 'Pangolin', cursive;
@@ -98,6 +99,7 @@ select{
 }
 #comment{
     display: block;
+    color: #fff;
 }
 input[type="radio"]{
     margin: 10px;
@@ -163,6 +165,7 @@ section.comments{
     font-size: 20px;
     margin-bottom: 10px;
     display: block;
+    color: #fff;
 }
 
 textarea{
