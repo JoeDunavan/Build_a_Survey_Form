@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Frijole&family=Pangolin&display=swap');
 
 input:focus, textarea:focus, select:focus{
-        outline: none;
+    outline: none;
     }
 
 body{
@@ -11,7 +11,6 @@ body{
     max-width: 1200px;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 #title{
     font-family: frijole, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -76,8 +75,7 @@ ul{
 li{
     text-align: left;
     margin: 10px 0;
-    font-size: 24px;
-    
+    font-size: 24px; 
 }
 li label{
     line-height: .2em;
@@ -90,7 +88,6 @@ legend{
     padding: 5px 10px;
     margin: 5px;
     background-color:#1c3030;
-
     border: 4px solid #fff;
     border-radius: 15px;
     text-align: left;
@@ -100,11 +97,21 @@ select{
 }
 #comment{
     display: block;
-    color: #fff;
+    color: #1c3030;
 }
 input[type="radio"]{
     margin: 10px;
     vertical-align: text-bottom;
+}
+input:required{
+    background-color: #fff;
+}
+input:required:invalid{
+border-right: 4px solid #fa0202;
+}
+
+input:focus::placeholder {
+  color: transparent;
 }
 input[type="checkbox"]{
     vertical-align: top
@@ -137,7 +144,6 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, in
     width: 75%;
     height: 1.5em;
 }
-
 section{
     background-color: #487a7a;
     border-radius: 15px;
@@ -176,6 +182,19 @@ textarea{
     font-size: 18px;
     padding: 15px;
 
+}
+
+footer{
+       background-color: #487a7a;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px auto; 
+    width: 80%;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    
 }
 
                             /* /////// SCREEN SIZE ///////*/

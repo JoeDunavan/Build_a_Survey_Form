@@ -22,7 +22,7 @@
                         <input type="email" id="email" required placeholder="Your Email Here">*</li> 
 
                     <li><label id="telephone" for="phone">Phone:</label>
-                        <input type="tel" id="phone" required pattern="^\d{10}$" placeholder="1231231234">*</li>
+                        <input type="tel" id="phone" pattern="^\d{3}-\d{3}-\d{4}$" placeholder="123-123-1234" required>*</li>
 
                     <li><label id="number-label" for="age">Age:</label>
                         <input type="number" min="12" max="120" id="age" required placeholder="Age">*</li>
@@ -73,7 +73,7 @@
                     </section>
                     <section class="comments">
                         <label for="comment">Additional Comments:</label>
-                            <textarea name="comment" id="comment"> Leave a cool comment here.</textarea>
+                            <textarea name="comment" id="comment" > </textarea>
                     
                         <input id="submit" type="submit" value="submit">
                     </section>
@@ -81,5 +81,10 @@
 
         </form>
 
+        <footer>
+            <p>This page was created for a Survey Form project for <a href="https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-survey-form">Freecodecamp.org</a><br>
+            Created by <a href="mailto:JoeyDLosAngeles@gmail.com">JoeyDLosAngeles@gmail.com</a></p>
+
+        </footer>
     </body>
 </html>
